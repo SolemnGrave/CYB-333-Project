@@ -1,0 +1,8 @@
+2025-06-22 10:00:01 INFO User 'solemn' logged in from 192.168.1.100.
+2025-06-22 10:00:05 WARNING Attempted login by 'unknown_user' from 203.0.113.44 failed.
+2025-06-22 10:00:10 CRITICAL Malware detected on host 'server-prod-01' path: /var/www/html/malware.php
+2025-06-22 10:00:15 INFO System health check passed.
+2025-06-22 10:00:20 ERROR Database connection lost.
+2025-06-22 10:00:25 ALERT Unauthorized access attempt from 172.16.0.50.
+2025-06-22 10:00:30 DEBUG Background process complete.
+2025-06-22 10:00:35 WARNING Login attempt by 'solemn' from 192.168.1.100 failed.
