@@ -1,0 +1,152 @@
+2025-06-28 16:09:29,459 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 16:09:29,460 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 16:09:29,460 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 16:09:29,460 - INFO - No existing analyzer state found. Starting from scratch.
+2025-06-28 16:09:29,469 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:09:29,470 - INFO - Detected 8 new log entries.
+2025-06-28 16:09:29,491 - CRITICAL - 
+--- NEW ALERTS TRIGGERED! (2025-06-28 16:09:29) ---
+2025-06-28 16:09:29,492 - CRITICAL - Alerts by Type:
+2025-06-28 16:09:29,493 - CRITICAL - alert_type
+Unauthorized Access Attempts    3
+Critical System Error           2
+2025-06-28 16:09:29,493 - CRITICAL - 
+Details of New Prioritized Alerts (Newest first, then by level):
+2025-06-28 16:09:29,494 - CRITICAL -   [2025-06-22 10:00:35] WARNING - Unauthorized Access Attempts: Login attempt by 'solemn' from 192.168.1.100 failed.
+2025-06-28 16:09:29,495 - CRITICAL -   [2025-06-22 10:00:25] ALERT - Critical System Error: Unauthorized access attempt from 172.16.0.50.
+2025-06-28 16:09:29,495 - CRITICAL -   [2025-06-22 10:00:25] ALERT - Unauthorized Access Attempts: Unauthorized access attempt from 172.16.0.50.
+2025-06-28 16:09:29,496 - CRITICAL -   [2025-06-22 10:00:10] CRITICAL - Critical System Error: Malware detected on host 'server-prod-01' path: /var/www/html/malware.php
+2025-06-28 16:09:29,496 - CRITICAL -   [2025-06-22 10:00:05] WARNING - Unauthorized Access Attempts: Attempted login by 'unknown_user' from 203.0.113.44 failed.
+2025-06-28 16:09:29,497 - CRITICAL - ---------------------------------------------------
+
+2025-06-28 16:09:29,497 - ERROR - 
+--- An unhandled error occurred, stopping monitoring: name 'time' is not defined ---
+Traceback (most recent call last):
+  File "C:\Users\farre\AppData\Local\Temp\ipykernel_38740\3906160649.py", line 337, in <module>
+    time.sleep(CHECK_INTERVAL_SECONDS)
+    ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+2025-06-28 16:09:29,498 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:09:29,498 - INFO - --- Log Analysis Session Ended ---
+2025-06-28 16:10:07,028 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 16:10:07,029 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 16:10:07,029 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 16:10:07,035 - INFO - Analyzer state loaded: position=579, inode=3377699720857009
+2025-06-28 16:10:07,037 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:07,038 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:12,039 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:12,040 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:17,041 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:17,042 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:22,044 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:22,044 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:27,046 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:27,046 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:32,048 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:32,048 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:37,050 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:37,051 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:42,052 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:42,053 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:47,054 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:47,055 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:52,057 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:52,057 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:10:57,059 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:10:57,060 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:02,061 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:02,062 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:07,064 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:07,064 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:12,066 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:12,067 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:17,069 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:17,069 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:22,071 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:22,071 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:27,073 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:27,073 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:32,075 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:32,075 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:37,077 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:37,078 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:42,080 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:42,080 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:47,082 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:47,082 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:52,084 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:52,084 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:11:57,086 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:11:57,087 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:12:02,089 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:12:02,089 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:12:07,091 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:12:07,091 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:12:12,093 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:12:12,093 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:12:17,094 - INFO - 
+--- Log monitoring stopped by user. ---
+2025-06-28 16:12:17,095 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:12:17,096 - INFO - --- Log Analysis Session Ended ---
+2025-06-28 16:25:48,198 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 16:25:48,198 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 16:25:48,198 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 16:25:48,199 - INFO - Analyzer state loaded: position=579, inode=3377699720857009
+2025-06-28 16:25:48,206 - INFO - Successfully loaded 4 alert rules from rules.yaml.
+2025-06-28 16:25:48,208 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:25:48,208 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:25:53,210 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:25:53,210 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:25:58,212 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:25:58,212 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:26:03,214 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:26:03,215 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:26:08,217 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:26:08,218 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:26:13,219 - INFO - 
+--- Log monitoring stopped by user. ---
+2025-06-28 16:26:13,220 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:26:13,220 - INFO - --- Log Analysis Session Ended ---
+2025-06-28 16:31:24,253 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 16:31:24,253 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 16:31:24,254 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 16:31:24,260 - INFO - Analyzer state loaded: position=579, inode=3377699720857009
+2025-06-28 16:31:24,262 - INFO - Successfully loaded 4 alert rules from rules.yaml.
+2025-06-28 16:31:24,264 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:31:24,264 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:31:29,266 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:31:29,266 - INFO - No new log entries detected. Waiting...
+2025-06-28 16:31:34,267 - INFO - 
+--- Log monitoring stopped by user. ---
+2025-06-28 16:31:34,268 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 16:31:34,268 - INFO - --- Log Analysis Session Ended ---
+2025-06-28 17:05:51,499 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 17:05:51,499 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 17:05:51,500 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 17:05:51,501 - INFO - Analyzer state loaded: position=579, inode=3377699720857009
+2025-06-28 17:05:51,503 - INFO - Successfully loaded 4 alert rules from rules.yaml.
+2025-06-28 17:05:51,505 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:05:51,505 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:05:56,506 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:05:56,507 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:06:01,509 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:06:01,509 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:06:06,511 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:06:06,512 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:06:11,512 - INFO - 
+--- Log monitoring stopped by user. ---
+2025-06-28 17:06:11,513 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:06:11,514 - INFO - --- Log Analysis Session Ended ---
+2025-06-28 17:12:56,287 - INFO - --- Starting Continuous Log Monitoring for Security Operations ---
+2025-06-28 17:12:56,287 - INFO - Monitoring log file: sample_logs/example_log.txt
+2025-06-28 17:12:56,287 - INFO - Checking for new logs every 5 seconds.
+2025-06-28 17:12:56,288 - INFO - Analyzer state loaded: position=579, inode=3377699720857009
+2025-06-28 17:12:56,289 - INFO - Successfully loaded 4 alert rules from rules.yaml.
+2025-06-28 17:12:56,291 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:12:56,291 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:13:01,293 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:13:01,293 - INFO - No new log entries detected. Waiting...
+2025-06-28 17:13:02,869 - INFO - 
+--- Log monitoring stopped by user. ---
+2025-06-28 17:13:02,870 - INFO - Analyzer state saved: position=579, inode=3377699720857009
+2025-06-28 17:13:02,870 - INFO - --- Log Analysis Session Ended ---

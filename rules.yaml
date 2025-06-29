@@ -1,0 +1,25 @@
+# rules.yaml
+alert_rules:
+  - name: Critical System Error
+    levels: ["CRITICAL", "ALERT"]
+    keywords: []
+    threshold_count: 1
+    time_window_seconds: 0
+
+  - name: Brute Force Attempt
+    levels: ["ERROR", "WARNING"]
+    keywords: ["failed login", "authentication failed", "access denied"]
+    threshold_count: 5
+    time_window_seconds: 300
+
+  - name: Database Connection Issues Spike
+    levels: ["ERROR"]
+    keywords: ["database connection lost", "database error"]
+    threshold_count: 3
+    time_window_seconds: 60
+
+  - name: Unauthorized Access Attempt
+    levels: ["ALERT"]
+    keywords: ["unauthorized access"]
+    threshold_count: 1
+    time_window_seconds: 0
